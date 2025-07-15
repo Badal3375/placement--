@@ -12,8 +12,11 @@ phone no :9179787632
 💪 “Practice every day. Get interview-ready!”
  
 Title: 📘 Placement Preparation Set
+
 Subtitle: Daily DSA & Math Problem-Solving Tracker
+
 Presented by: [Badal Singh ]
+
 Date: [10/07/2025]
 
 
