@@ -6,6 +6,7 @@ GitHub: [https://github.com/Badal3375]
 LinkedIn: [https://www.linkedin.com/in/badalsingh91/]
 
 Email: singh.badal3375@gmail.com
+
 phone no :9179787632 
 
 💪 “Practice every day. Get interview-ready!”
