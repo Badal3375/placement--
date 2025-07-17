@@ -74,9 +74,9 @@ int main()
 
    int arr[] = {1, 5, 3, 8, 9, 4, 6};
    int n = sizeof(arr) / sizeof(arr[0]);
-   int sum = 15;
-   // subArray_sum(arr,n,sum);
+   int sum = 20 ;
+   subArray_sum(arr,n,sum);
    //  Two_Sum(arr,n,sum);
-   vector<int> arr1 = {1, 0, 1, 0, 1, 2, 2, 1, 0, 1};
-   count_element(arr1);
+   //vector<int> arr1 = {1, 0, 1, 0, 1, 2, 2, 1, 0, 1};
+  // count_element(arr1);
 }
