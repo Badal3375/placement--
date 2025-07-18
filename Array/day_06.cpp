@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// Question  majority element in array
 int majority_element(vector<int> arr)
 {
     int n = arr.size();
