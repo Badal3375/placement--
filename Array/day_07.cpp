@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include <vector>
 using namespace std;
-// Question -3 three sum of the array
+// Question -1  three sum of the array
 int three_Sum(vector<int> arr, int target)
 {
     int n = arr.size();
@@ -19,6 +19,24 @@ int three_Sum(vector<int> arr, int target)
     }
        return 0;
 }
+//Question -2 sales by match
+//int sockMerchant(int n, vector<int> ar) {
+//     unordered_map<int, int> colorCount;
+//    int pairs = 0;
+//
+//    
+//    for (int i = 0; i < n; i++) {
+//        colorCount[ar[i]]++;
+//    }
+//
+//    
+//    for (auto pair : colorCount) {
+//        pairs += pair.second / 2;
+//    }
+//
+//    return pairs;
+//} 
+//Question -3 
 int main()
 {
     vector<int> arr = {1, 5, 2, 3, 4, 6};
