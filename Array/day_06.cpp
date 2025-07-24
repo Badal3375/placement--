@@ -22,7 +22,7 @@ int majority_element(vector<int> arr)
 }
 int main()
 {
-    vector<int> arr = {1, 2, 2, 1, 2, 2, 1};
+    vector<int> arr = {1,2,2,5,5,6,5,2,5,1,5};
     int ans = majority_element(arr);
     cout << ans << endl;
 }

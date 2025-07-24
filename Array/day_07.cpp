@@ -20,22 +20,22 @@ int three_Sum(vector<int> arr, int target)
        return 0;
 }
 //Question -2 sales by match
-//int sockMerchant(int n, vector<int> ar) {
-//     unordered_map<int, int> colorCount;
-//    int pairs = 0;
-//
-//    
-//    for (int i = 0; i < n; i++) {
-//        colorCount[ar[i]]++;
-//    }
-//
-//    
-//    for (auto pair : colorCount) {
-//        pairs += pair.second / 2;
-//    }
-//
-//    return pairs;
-//} 
+int sockMerchant(int n, vector<int> ar) {
+     unordered_map<int, int> colorCount;
+    int pairs = 0;
+
+    
+    for (int i = 0; i < n; i++) {
+        colorCount[ar[i]]++;
+    }
+
+    
+    for (auto pair : colorCount) {
+        pairs += pair.second / 2;
+    }
+
+    return pairs;
+} 
 //Question -3 
 int main()
 {

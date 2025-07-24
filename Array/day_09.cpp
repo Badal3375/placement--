@@ -23,8 +23,7 @@ badal b1;
 int a ;
  
 cout<<b1.s<<endl;
- 
- cout<<b1.set(5)<<endl;
+
  cout<<b1.get_A()<<endl;
     
      
