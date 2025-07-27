@@ -1,0 +1,2 @@
+use bds;
+SHOW tables;
