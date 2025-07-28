@@ -27,7 +27,7 @@ public:
 int main(){
   Solution s;
   vector<int> nums={1,2,3,4,5,6,7};
-  int k=4;
+  int k=6;
   s.rotate(nums,k);
   for(int i=0;i<nums.size();i++){
     cout<<nums[i]<<" ";

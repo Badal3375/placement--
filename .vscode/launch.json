@@ -19,8 +19,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/singh/OneDrive/Desktop/placement++/Array",
-      "program": "c:/Users/singh/OneDrive/Desktop/placement++/Array/build/Debug/outDebug",
+      "cwd": "c:/Users/singh/OneDrive/Desktop/placement++/Array/Tree",
+      "program": "c:/Users/singh/OneDrive/Desktop/placement++/Array/Tree/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
