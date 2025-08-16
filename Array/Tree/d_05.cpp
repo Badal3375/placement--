@@ -14,6 +14,7 @@ struct node{
 };
 // Function to insert a new node with given data in BST
 //using level by level approach
+
 // Question ->1
 
 void levelbylevel(node*root){
@@ -22,18 +23,19 @@ void levelbylevel(node*root){
     queue<node*>q;
     q.push(root);
     while(!q.empty()){
-        node*temp=q.front();
+        node*curr=q.front();
         q.pop();
-        cout<<temp->data<<" ";
-        if(temp->left!=nullptr)
-        q.push(temp->left);
-        if(temp->right!=nullptr)
-        q.push(temp->right);
+        cout<<curr->data<<" ";
+        if(curr->left!=nullptr)
+        q.push(curr->left);
+        if(curr->right!=nullptr)
+        q.push(curr->right);
         
         
 
     }
 }
+
 // Question ->2
 // how to find the heigth in tree 
 int height(node*root){
@@ -45,6 +47,31 @@ int height(node*root){
     int ans ;
      ans =max(left_heigth,right_heigth)+1 ;
      return ans ;
+}
+
+// Question ->3
+// how to find the  element present in the tree or not
+bool search(node*root,int key){
+    if(root==nullptr)
+    return false;
+    if(root->data==key){
+        return true;
+    }
+    bool res1 = search(root->left, key);
+    bool res2 = search(root->right, key);
+
+    // node found, no need to look further
+    if (res1) 
+    {
+        return true;
+    } 
+
+    // node is not found in left, 
+    // so recur on right subtree
+     else{
+        return res2 ;
+     }
+    
 }
 int main(){
     node *root = new node(12);
@@ -60,4 +87,7 @@ int main(){
       levelbylevel(root);
       cout<<endl;
       cout<<"the height of tree is "<<height(root)<<endl;
+
+      int key=100;
+      cout<<"is key present in tree "<<search(root,key)<<endl;
 }
