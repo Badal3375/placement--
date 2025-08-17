@@ -59,11 +59,9 @@ int findparent(node *root, int key, int &parent)
         return findparent(root->right, key, root->data);
     }
 }
-
-
-
 // Question -->3 
 // find the all leaf node in given binary tree
+
 void findleaf(node *root){
     if(root= nullptr){
         return;
