@@ -62,18 +62,19 @@ int findparent(node *root, int key, int &parent)
 // Question -->3 
 // find the all leaf node in given binary tree
 
-void findleaf(node *root){
-    if(root= nullptr){
+  
+  void findleaf(node*root) {
+    if (root == nullptr) {  // ✅ Corrected
         return;
     }
-    if(root->left == nullptr && root->right == nullptr){
-        cout<<root->data<<" ";
-        return ;
-     }
-    if(root->left){
+    if (root->left == nullptr && root->right == nullptr) {
+        cout << root->data << " ";
+        return;
+    }
+    if (root->left) {
         findleaf(root->left);
     }
-    if(root->right){
+    if (root->right) {
         findleaf(root->right);
     }
 }
@@ -90,10 +91,10 @@ int main()
     root->left->right->right->right = new node(58);
     levelbylevel(root);
     cout<< " level order"<<endl;
-    int key = 18;
-    int parent = -1;
-    cout << findparent(root, key, parent) << endl;
-    cout<<"  find the parent node"<<endl;
-     
-     
+   // int key = 18;
+   // int parent = -1;
+   // cout << findparent(root, key, parent) << endl;
+   // cout<<"  find the parent node"<<endl;
+    findleaf(root);
+     cout<<" now this is the leaf node "<<endl;
 }

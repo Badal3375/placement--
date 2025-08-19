@@ -34,3 +34,7 @@ use test_1;
 select *from orders;
 insert into orders values(103,1,'26/07/25',123.23);
 select *from orders;
+ use bds;
+ show tables;
+ select* from bds1;
+ 

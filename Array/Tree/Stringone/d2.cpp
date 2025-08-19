@@ -13,7 +13,6 @@ public:
                 upper[s[i]-'A']++;
              }
          }
-
          int count=0;
          bool odd=0;
           for(int i=0;i<26;i++){
@@ -35,13 +34,11 @@ public:
              }
           }
          return count+odd;
-
     }
 };
-
 int main(){
     Solution solution;
-       string s="aaaabbhbbbbccc";
+       string s="aaaabbhmmbbbbccgic";
         cout<<s.size()<<endl;
        cout<<solution.longestPalindrome(s)<<endl;
 }
