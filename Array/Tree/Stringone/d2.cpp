@@ -38,7 +38,7 @@ public:
 };
 int main(){
     Solution solution;
-       string s="aaaabbhmmbbbbccgic";
+       string s="aaaabbhmmaaaic";
         cout<<s.size()<<endl;
        cout<<solution.longestPalindrome(s)<<endl;
 }
