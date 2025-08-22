@@ -12,6 +12,7 @@ using namespace std;
              cout<<arr[i]<<" ";
          }
  }
+ // Rotateto right  of array 
 
 void Rotatetoright(int arr[], int n, int k)
 {
